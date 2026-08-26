@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+data/raw/*
+data/processed/*
+*.pkl
+*.pickle
+*.joblib
+*.ckpt
+*.pt
+*.pth
+
+# Experiment outputs and submissions
+experiments/*
+submissions/*
+
+# Tooling and local configuration
+.DS_Store
+.env
+.vscode/
+.idea/
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
